@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #f8dbdb;
+    }
+
+    header {
+      background: #da74e7;
+      color: rgb(247, 231, 231);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .profile {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #8fffbe;
+    }
+
+    .info h2 {
+      margin: 0;
+      color: #333;
+    }
+
+    .info p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .about {
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #333;
+      color: white;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .profile {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .profile img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Profile</h1>
+  </header>
+
+  <div class="container">
+    <div class="profile">
+      <img src="HILOO.jpg" alt="Profile Picture" class="profile-pic">
+      <div class="info">
+        <h2>Christine L. Acla</h2>
+        <p><strong>Course:</strong> Bachelor Of Science in Information Technology</p>
+        <p><strong>School:</strong> University Of Science And Technology of Souther Philippines</p>
+        <p><strong>Email:</strong> Khizzyper@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="about">
+      <h3>About Me</h3>
+      <p>
+        Hello! I am a student learning web development.  
+        This is my simple profile page using HTML and CSS with responsive design.
+      </p>
+    </div>
+
+  <footer>
+    <p>© 2026 My Profile Page</p>
+  </footer>
+
+</body>
+</html>
